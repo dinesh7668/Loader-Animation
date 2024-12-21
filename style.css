@@ -12,7 +12,7 @@ body {
 .container {
   height: 15rem;
   width: 30rem;
-  margin-top: 200px;
+  margin-top: 13rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,6 +35,20 @@ body {
   height: 20px;
 }
 
+@media (max-width: 700px) {
+
+    .box1{
+      width: 13rem;
+    }
+    .box2{
+      width: 13rem;
+    }
+    .container{
+      width: 15rem;
+      height: 8rem;
+    }
+
+}
 @keyframes animate {
   10% {
     height: 2rem;
